@@ -7,3 +7,5 @@ For it to work just paste this into your webpage:
 
 if that give you trouble just use:  
 >><script type="module"> import { initFly } from 'https://cdn.jsdelivr.net/gh/MichaelGalloway404/AnnoyingFly@main/fly.js'; initFly(); </script>  
+
+  Or try it out on the is test page: https://michaelgalloway404.github.io/AnnoyingFly/
