@@ -10,23 +10,9 @@ export function initFly() {
   style.textContent = `
     #fly {
       position: absolute;
-      left: 20px;
-      top: 20px;
       transform: rotate(90deg);
-      transition: left 0.01s linear, top 0.01s linear, transform 0.1s ease;
-      background: radial-gradient(circle,
-        rgba(255,255,255,0.9) 0%,
-        rgba(220,220,220,0.3) 60%,
-        rgba(0,0,0,0) 100%);
-      border-radius: 50%;
-      padding: 4px;
-      font-size: 1.8rem;
-      filter:
-        drop-shadow(0 0 2px rgba(255,255,255,0.7))
-        drop-shadow(2px 2px 4px rgba(0,0,0,0.35));
-      user-select: none;
-      pointer-events: none;
-      z-index: 9999;
+      transition: left 0.01s linear, top 0.01s linear;
+      background-color: rgba(0, 0, 0, 0);
     }
   `;
   document.head.appendChild(style);
