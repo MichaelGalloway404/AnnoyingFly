@@ -1,7 +1,7 @@
 // fly.js - JavaScript module for fly behavior
 
 // Set movement speed
-let speed = 5;
+let speed = 10;
 
 // Create the fly and add behavior
 export function initFly() {
